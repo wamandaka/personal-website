@@ -2,7 +2,7 @@ import AssetPortfolio from "../assets/asset-portfolio.png";
 const Portfolio = () => {
   return (
     <>
-      <section id="portfolio" className="bg-portfolio">
+      <section id="portfolio" className="bg-[url('./assets/bg-portfolio.png')]">
         <div className="max-w-[1200px] mx-auto px-4 py-16  bg-cover bg-center bg-no-repeat text-light flex flex-col items-center text-center md:px-12">
           <h1 className="text-3xl font-bold mb-6">Portfolio</h1>
           <p className="text-xl mb-12">
