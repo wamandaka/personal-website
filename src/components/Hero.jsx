@@ -7,24 +7,24 @@ const Hero = () => {
         <div className="max-w-[1200px] mx-auto px-4 h-screen flex items-center md:h-full md:px-12 md:py-20">
           <div className="flex flex-col items-center text-center md:flex-row-reverse md:text-start">
             <div className="md:w-1/2 justify-center flex ">
-              <div className="w-48 h-48 rounded-full overflow-hidden md:w-full md:h-full  ">
+              <div className="w-48 h-48 rounded-full overflow-hidden md:w-full md:h-full lg:flex justify-center lg:rounded-none">
                 <img src={ayaka} alt="" className="" loading="lazy" />
               </div>
             </div>
             <div className="md:w-1/2 pt-10">
-              <h1 className="text-2xl font-bold text-light">
+              <h1 className="text-2xl font-bold text-light lg:text-3xl">
                 Hello, I&apos;m Kamisato Ayaka
               </h1>
-              <h1 className="text-2xl font-bold text-light">
+              <h1 className="text-2xl font-bold text-light lg:text-3xl">
                 Software Engineer
               </h1>
-              <p className="text-light pt-4 text-lg">
+              <p className="text-light pt-4 text-lg lg:text-sm">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
                 ut odit, necessitatibus tenetur nemo qui?
               </p>
               <a
                 href="#about"
-                className="btn text-light mt-10 text-lg font-bold hidden md:inline-block text-center py-3 px-8"
+                className="btn text-light mt-10 text-lg font-bold hidden md:inline-block text-center py-3 px-8 lg:py-1 lg:px-6 lg:mt-5 lg:text-base lg:font-semibold"
               >
                 About me
               </a>
